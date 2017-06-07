@@ -1,3 +1,4 @@
+#### This project is a fork of the original ng-material-datetimepicker. It adds angular-moment as a dependency.
 # Angular Material DateTimePicker
 
 Originally designed for Bootstrap Material, this has been modified to work with [Angular Material](https://material.angularjs.org/). This is an Android style date-time picker for Angular Material. Some added features include:
@@ -12,15 +13,16 @@ Originally designed for Bootstrap Material, this has been modified to work with 
 
 ## Updates
 
-| Date       | Author   | Description                                          |
-| ---------- | -------- | ---------------------------------------------------- |
-| 2017-04-26 | hexadecy | New 24-hour clock face                               |
-| 2017-04-17 | hexadecy | Single click to select                               |
-| 2017-02-27 | hexadecy | Can hide minutes view, Month next and prev buttons   |
-| 2017-02-22 | hexadecy | Fix for rtl website                                  |
-| 2017-02-15 | hexadecy | Fix inputs are not bluring after selection is made   |
-| 2017-01-30 | hexadecy | Add support only for angular 1.5.x - 1.6.x ($onInit) |
-| 2015-11-12 | logbon72 | Adapted plugin for Angular Material                  |
+| Date       | Author          | Description                                          |
+| ---------- | --------------- | ---------------------------------------------------- |
+| 2017-06-07 | dhatawesomedude | Adapted plugin for Angular moment                              |
+| 2017-04-26 | hexadecy        | New 24-hour clock face                               |
+| 2017-04-17 | hexadecy        | Single click to select                               |
+| 2017-02-27 | hexadecy        | Can hide minutes view, Month next and prev buttons   |
+| 2017-02-22 | hexadecy        | Fix for rtl website                                  |
+| 2017-02-15 | hexadecy        | Fix inputs are not bluring after selection is made   |
+| 2017-01-30 | hexadecy        | Add support only for angular 1.5.x - 1.6.x ($onInit) |
+| 2015-11-12 | logbon72        | Adapted plugin for Angular Material                  |
 
 ### Dependencies
 
@@ -30,7 +32,7 @@ Depends on the following library:
 - AngularJS Animate
 - AngularJS Aria
 - AngularJS
-- Moment
+- Angular moment
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
@@ -38,28 +40,13 @@ Depends on the following library:
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-aria.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.css" rel="stylesheet" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.js"></script>
 ```
 
-## Installing via yarn, npm or bower
+## Installing via npm 
 
 ```
-yarn add ng-material-datetimepicker
-npm i ng-material-datetimepicker
-bower install ng-material-datetimepicker
-```
-
-## CDN
-```
-<script src="https://unpkg.com/ng-material-datetimepicker@1.6.3/dist/angular-material-datetimepicker.min.js"></script>
-<script src="https://unpkg.com/ng-material-datetimepicker@1.6.3/dist/angular-material-datetimepicker.min.js.map"></script>
-<link href="https://unpkg.com/ng-material-datetimepicker@1.6.3/dist/material-datetimepicker.min.css rel="stylesheet" type="text/css">
-```
-or
-```
-<script src="https://cdn.rawgit.com/beenote/angular-material-datetimepicker/v1.6.3/dist/angular-material-datetimepicker.min.js"></script>
-<script src="https://cdn.rawgit.com/beenote/angular-material-datetimepicker/v1.6.3/dist/angular-material-datetimepicker.min.js.map"></script>
-<link href="https://cdn.rawgit.com/beenote/angular-material-datetimepicker/v1.6.3/dist/material-datetimepicker.min.css" rel="stylesheet" type="text/css">
+npm i ng-material-ng-moment-datetimepicker
 ```
 
 ## Live Example
